@@ -1,0 +1,60 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="24dp"&gt;
+
+    &lt;TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghostboards"
+        android:textColor="@color/quantum_purple"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" /&gt;
+
+    &lt;TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Klavye Ayarları"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" /&gt;
+
+    &lt;Button
+        android:id="@+id/btnEnableKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Klavyeyi Etkinleştir"
+        android:backgroundTint="@color/quantum_purple"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp" /&gt;
+
+    &lt;Button
+        android:id="@+id/btnSetDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Varsayılan Yap"
+        android:backgroundTint="@color/quantum_blue"
+        android:textColor="@color/white" /&gt;
+
+    &lt;View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/quantum_purple"
+        android:layout_marginVertical="24dp" /&gt;
+
+    &lt;TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modern Quantum Minimalism Teması"
+        android:textColor="@color/quantum_cyan"
+        android:textSize="16sp"
+        android:gravity="center" /&gt;
+
+&lt;/LinearLayout&gt;
+

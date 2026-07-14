@@ -1,0 +1,20 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;resources&gt;
+    &lt;style name="KeyButton"&gt;
+        &lt;item name="android:layout_width"&gt;0dp&lt;/item&gt;
+        &lt;item name="android:layout_height"&gt;50dp&lt;/item&gt;
+        &lt;item name="android:layout_weight"&gt;1&lt;/item&gt;
+        &lt;item name="android:layout_margin"&gt;2dp&lt;/item&gt;
+        &lt;item name="android:background"&gt;@drawable/key_background&lt;/item&gt;
+        &lt;item name="android:textColor"&gt;@color/key_text&lt;/item&gt;
+        &lt;item name="android:textSize"&gt;20sp&lt;/item&gt;
+        &lt;item name="android:textAllCaps"&gt;false&lt;/item&gt;
+    &lt;/style&gt;
+
+    &lt;style name="SpecialKeyButton" parent="KeyButton"&gt;
+        &lt;item name="android:background"&gt;@drawable/key_special&lt;/item&gt;
+        &lt;item name="android:textSize"&gt;18sp&lt;/item&gt;
+    &lt;/style&gt;
+&lt;/resources&gt;
+

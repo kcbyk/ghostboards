@@ -1,0 +1,11 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;resources&gt;
+    &lt;string name="app_name"&gt;Ghostboards&lt;/string&gt;
+    &lt;string name="subtype_label"&gt;Türkçe&lt;/string&gt;
+    &lt;string name="subtype_label_en"&gt;English&lt;/string&gt;
+    &lt;string name="settings"&gt;Ayarlar&lt;/string&gt;
+    &lt;string name="theme_dark"&gt;Karanlık Tema&lt;/string&gt;
+    &lt;string name="theme_gradient"&gt;Gradyan Tema&lt;/string&gt;
+&lt;/resources&gt;
+

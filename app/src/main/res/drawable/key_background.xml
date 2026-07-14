@@ -1,0 +1,18 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;selector xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+    &lt;item android:state_pressed="true"&gt;
+        &lt;shape android:shape="rectangle"&gt;
+            &lt;solid android:color="@color/key_pressed" /&gt;
+            &lt;corners android:radius="8dp" /&gt;
+            &lt;stroke android:width="1dp" android:color="@color/quantum_purple" /&gt;
+        &lt;/shape&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+        &lt;shape android:shape="rectangle"&gt;
+            &lt;solid android:color="@color/key_background" /&gt;
+            &lt;corners android:radius="8dp" /&gt;
+        &lt;/shape&gt;
+    &lt;/item&gt;
+&lt;/selector&gt;
+

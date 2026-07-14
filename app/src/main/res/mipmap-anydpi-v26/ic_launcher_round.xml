@@ -1,0 +1,7 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+    &lt;background android:drawable="@color/black"/&gt;
+    &lt;foreground android:drawable="@color/quantum_purple"/&gt;
+&lt;/adaptive-icon&gt;
+

@@ -1,0 +1,103 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    android:padding="4dp"&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"&gt;
+        &lt;Button style="@style/KeyButton" android:text="q" android:tag="q" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="w" android:tag="w" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="e" android:tag="e" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="r" android:tag="r" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="t" android:tag="t" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="y" android:tag="y" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="u" android:tag="u" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="i" android:tag="i" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="o" android:tag="o" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="p" android:tag="p" /&gt;
+    &lt;/LinearLayout&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"&gt;
+        &lt;Button style="@style/KeyButton" android:text="a" android:tag="a" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="s" android:tag="s" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="d" android:tag="d" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="f" android:tag="f" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="g" android:tag="g" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="h" android:tag="h" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="j" android:tag="j" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="k" android:tag="k" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="l" android:tag="l" /&gt;
+    &lt;/LinearLayout&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"&gt;
+        &lt;Button
+            style="@style/SpecialKeyButton"
+            android:text="⇧"
+            android:tag="shift"
+            android:layout_weight="1.5" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="z" android:tag="z" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="x" android:tag="x" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="c" android:tag="c" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="v" android:tag="v" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="b" android:tag="b" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="n" android:tag="n" /&gt;
+        &lt;Button style="@style/KeyButton" android:text="m" android:tag="m" /&gt;
+        &lt;Button
+            style="@style/SpecialKeyButton"
+            android:text="⌫"
+            android:tag="delete"
+            android:layout_weight="1.5" /&gt;
+    &lt;/LinearLayout&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"&gt;
+        &lt;Button
+            style="@style/SpecialKeyButton"
+            android:text="123"
+            android:tag="numeric"
+            android:layout_weight="1.2" /&gt;
+        &lt;Button
+            style="@style/KeyButton"
+            android:text=","
+            android:tag=","
+            android:layout_weight="1" /&gt;
+        &lt;Button
+            style="@style/KeyButton"
+            android:text=" "
+            android:tag="space"
+            android:layout_weight="4" /&gt;
+        &lt;Button
+            style="@style/KeyButton"
+            android:text="."
+            android:tag="."
+            android:layout_weight="1" /&gt;
+        &lt;Button
+            style="@style/SpecialKeyButton"
+            android:text="⏎"
+            android:tag="enter"
+            android:layout_weight="1.5" /&gt;
+    &lt;/LinearLayout&gt;
+
+&lt;/LinearLayout&gt;
+

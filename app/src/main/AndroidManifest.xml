@@ -1,0 +1,40 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"&gt;
+
+    &lt;application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ghostboards"
+        tools:targetApi="31"&gt;
+
+        &lt;service
+            android:name=".GhostboardsKeyboardService"
+            android:exported="true"
+            android:permission="android.permission.BIND_INPUT_METHOD"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.view.InputMethod" /&gt;
+            &lt;/intent-filter&gt;
+            &lt;meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" /&gt;
+        &lt;/service&gt;
+
+        &lt;activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:label="@string/app_name"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.MAIN" /&gt;
+                &lt;category android:name="android.intent.category.LAUNCHER" /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+
+    &lt;/application&gt;
+
+&lt;/manifest&gt;
+

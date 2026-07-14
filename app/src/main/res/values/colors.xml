@@ -1,0 +1,14 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;resources&gt;
+    &lt;color name="black"&gt;#000000&lt;/color&gt;
+    &lt;color name="white"&gt;#FFFFFF&lt;/color&gt;
+    &lt;color name="quantum_purple"&gt;#8B5CF6&lt;/color&gt;
+    &lt;color name="quantum_blue"&gt;#3B82F6&lt;/color&gt;
+    &lt;color name="quantum_cyan"&gt;#06B6D4&lt;/color&gt;
+    &lt;color name="key_background"&gt;#1A1A1A&lt;/color&gt;
+    &lt;color name="key_pressed"&gt;#333333&lt;/color&gt;
+    &lt;color name="key_text"&gt;#FFFFFF&lt;/color&gt;
+    &lt;color name="special_key"&gt;#2D2D2D&lt;/color&gt;
+&lt;/resources&gt;
+

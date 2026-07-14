@@ -1,0 +1,13 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;resources&gt;
+    &lt;style name="Theme.Ghostboards" parent="Theme.MaterialComponents.DayNight.DarkActionBar"&gt;
+        &lt;item name="colorPrimary"&gt;@color/quantum_purple&lt;/item&gt;
+        &lt;item name="colorPrimaryVariant"&gt;@color/quantum_blue&lt;/item&gt;
+        &lt;item name="colorOnPrimary"&gt;@color/white&lt;/item&gt;
+        &lt;item name="colorSecondary"&gt;@color/quantum_cyan&lt;/item&gt;
+        &lt;item name="android:statusBarColor"&gt;@color/black&lt;/item&gt;
+        &lt;item name="android:windowBackground"&gt;@color/black&lt;/item&gt;
+    &lt;/style&gt;
+&lt;/resources&gt;
+
